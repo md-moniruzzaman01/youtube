@@ -1,0 +1,51 @@
+
+
+<%- include("parties/header"); -%>
+<main class="m-4 min-h-screen">
+
+ 
+  
+  <div class="grid grid-cols-4 gap-4">
+  
+  <% for(const card of posts.items){ %>
+
+    
+
+  <div class=" bg-white max-w-sm ">
+    <a href="https://youtube.com/watch?v=<%=card.id%>">
+      <img class="w-full h-44 w-100"  src="<%= card.snippet.thumbnails.high.url %>" alt=""/>
+    
+    <div class="flex mt-2">
+      <div class="w-3/12 p-2">
+      <img class ="h-12  rounded-full" src="https://yt3.ggpht.com/ytc/AKedOLRhlbFHBy0tvGBlScs4QiPtzvDYgnul7TfIxZ_x=s88-c-k-c0x00ffffff-no-rj" alt="">
+      </div>
+    
+    
+      <div class=" w-9/12  h-20 ">
+      <h5 class="text-gray-900 text-lg font-medium mb-2"><%= (card.snippet.title).slice(0,45) %> ... </h5>
+      
+    </div>
+
+  </div>
+</a>
+  </div>
+
+
+ 
+
+
+      
+   
+    <% }; %>
+  </div>
+
+    </div>
+
+</main>
+
+
+<%- include("parties/footer"); -%>
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../public/img/youtube.png" type="image/x-icon">
+    <title>YouTube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/9d5a15f4af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header> <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+    <div class="flex justify-between items-center ">
+      <span class="text-4xl font-semibold text-black font-[Poppins] cursor-pointer">
+        <i class="fa-brands fa-youtube text-red-600 text-4xl"></i>
+       YouTube
+       <sup class="text-sm font-light ">BD</sup>
+      </span>
+
+      <span class="text-3xl text-white cursor-pointer mx-2 md:hidden block">
+        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+      </span>
+    </div>
+
+    <ul
+      class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 text-black">
+      <li class="mx-4 my-6 md:my-0 border bg-white">
+       <input type="text" placeholder=" Search here...." class="px-4 py-2 w-96 focus:outline-none text-black">
+       <button
+        class="bg-gray-300 text-black font-[Poppins] duration-500 px-4 py-2   hover:bg-gray-200  text-lg">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+      </li>
+      
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl  px-3.5 py-2 duration-500 bg-gray-200 text-black rounded-full"><i class="fa-solid fa-microphone"></i></a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl px-3 py-2 duration-500  text-black rounded-full"> <i class="fa-solid fa-video"></i></a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl px-3 py-2 duration-500  text-black rounded-full"> <i class="fa-solid fa-ellipsis-vertical "></i></a>
+      </li>
+      
+
+
+      <button
+        class="bg-white border-2 border-blue-500 text-sky-500 font-[Poppins] duration-500 px-4 py-2 mx-4 font-light  text-xl">
+        <i class="fa-solid fa-circle-user pr-2 text-xl"></i>
+        Sign up
+      </button>
+      <h2 class=""></h2>
+    </ul>
+  </nav>
+  
+</header>

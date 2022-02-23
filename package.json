@@ -1,0 +1,31 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "making youtube clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-moniruzzaman01/youtube-clone.git"
+  },
+  "keywords": [
+    "youtube",
+    "clone",
+    "youtube"
+  ],
+  "author": "md. moniruzzaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/md-moniruzzaman01/youtube-clone/issues"
+  },
+  "homepage": "https://github.com/md-moniruzzaman01/youtube-clone#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cross-fetch": "^3.1.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7"
+  }
+}
